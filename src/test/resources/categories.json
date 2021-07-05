@@ -14,7 +14,7 @@
     "traceRegex": ".*FileNotFoundException.*"
   },
   {
-    "name": "Product defects",
+    "name": "Product defects 123",
     "matchedStatuses": ["failed"]
   },
   {
