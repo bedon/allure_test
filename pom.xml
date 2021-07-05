@@ -12,20 +12,27 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <aspectj.version>1.8.10</aspectj.version>
+        <allureVersion>2.14.0</allureVersion>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
-            <version>2.14.0</version>
+            <version>${allureVersion}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-plugin-api</artifactId>
+            <version>${allureVersion}</version>
+            <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-commandline -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-commandline</artifactId>
-            <version>2.14.0</version>
+            <version>${allureVersion}</version>
             <type>pom</type>
         </dependency>
 
