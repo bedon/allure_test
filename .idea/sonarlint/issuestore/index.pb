@@ -7,5 +7,3 @@ r
 Ballure-results/aaa619b5-3002-411b-985f-d39224d50171-container.json,6/1/6147042c2239ca6f8bf790be56feaf97e145912f
 o
 ?allure-results/b707c925-01ae-4624-93b0-73c107e0c8de-result.json,7/b/7bebb78eacf921db58feabb1624330f3a4dab138
-J
-src/test/java/Test123.java,5/9/593e16ed44cc6bc60b613a272b432321041fb6f5

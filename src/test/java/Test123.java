@@ -6,6 +6,6 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class Test123 {
     @Test
     public void qwe() {
-        assertThat("test", 2 + 2, Matchers.equalTo(5));
+        assertThat("test", 2 + 2, Matchers.equalTo(4));
     }
 }
