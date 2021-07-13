@@ -73,10 +73,6 @@
                     </dependency>
                 </dependencies>
             </plugin>
-        </plugins>
-    </build>
-    <reporting>
-        <plugins>
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
@@ -86,5 +82,5 @@
                 </configuration>
             </plugin>
         </plugins>
-    </reporting>
+    </build>
 </project>
