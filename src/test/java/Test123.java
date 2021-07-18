@@ -17,7 +17,7 @@ public class Test123 extends Steps{
 
     }
 
-    @Test(description = "ethdgwvljkehkrj")
+    @Test()
     public void qwe() {
         plus(2, 5);
     }
@@ -32,8 +32,8 @@ public class Test123 extends Steps{
         plus(3,9);
     }
 
-    @Test
-    public void fgrth45ge() {
+    @Test(description = "super test")
+    public void test123() {
         assertThat("test", 2 + 2, Matchers.equalTo(4));
     }
 
