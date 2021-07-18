@@ -49,7 +49,7 @@ public class Test123 extends Steps{
     @Description("qrwrgjhqgbfwrwfkjhqkj")
     @Test
     public void fsdvsdv() {
-        assertThat("test", 2 + 2, Matchers.equalTo(42));
+        plus(3,9);
     }
 
     @Test
