@@ -1,13 +1,43 @@
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.hamcrest.Matchers;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 
 @Feature("qweqwasd")
 @Story("asdasdasd")
 public class Test123 extends Steps{
+    @BeforeClass
+    public void befClass() {
+
+    }
+
+    @BeforeMethod
+    public void befMeth() {
+
+    }
+
+    @BeforeTest
+    public void befTest() {
+
+    }
+
+    @AfterClass
+    public void aftClass() {
+
+    }
+
+    @AfterMethod
+    public void aftMeth() {
+
+    }
+
+    @AfterTest
+    public void aftTest() {
+
+    }
+
     @Test
     public void qwe() {
         plus(2, 5);
