@@ -7,20 +7,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 @Feature("qweqwasd")
 @Story("asdasdasd")
-public class Test123 {
+public class Test123 extends Steps{
     @Test
     public void qwe() {
-        assertThat("test", 2 + 2, Matchers.equalTo(42));
-    }
-
-    @Test
-    public void qwdqwd() {
-        assertThat("test", 2 + 2, Matchers.equalTo(4));
-    }
-
-    @Test
-    public void qwsffnghnfe() {
-        assertThat("test", 2 + 2, Matchers.equalTo(4));
+        plus(2, 5);
     }
 
     @Test
