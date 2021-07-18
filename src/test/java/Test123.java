@@ -12,4 +12,24 @@ public class Test123 {
     public void qwe() {
         assertThat("test", 2 + 2, Matchers.equalTo(42));
     }
+
+    @Test
+    public void qwdqwd() {
+        assertThat("test", 2 + 2, Matchers.equalTo(4));
+    }
+
+    @Test
+    public void qwsffnghnfe() {
+        assertThat("test", 2 + 2, Matchers.equalTo(4));
+    }
+
+    @Test
+    public void fsdvsdv() {
+        assertThat("test", 2 + 2, Matchers.equalTo(42));
+    }
+
+    @Test
+    public void fgrth45ge() {
+        assertThat("test", 2 + 2, Matchers.equalTo(4));
+    }
 }
