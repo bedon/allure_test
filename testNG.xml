@@ -1,5 +1,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="mobile_suite" verbose="0" parallel="classes">
+    <listeners>
+        <listener class-name="Retry"/>
+    </listeners>
     <test name="hueta">
         <classes>
             <class name="Test123"/>

@@ -34,7 +34,6 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.4.0</version>
-            <scope>test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
         <dependency>
@@ -72,7 +71,6 @@
                 <version>2.10.0</version>
                 <configuration>
                     <reportVersion>${allure.version}</reportVersion>
-                    <reportDirectory>${basedir}/target/qwe/allure-results</reportDirectory>
                 </configuration>
             </plugin>
         </plugins>
