@@ -3,6 +3,8 @@
     <test name="hueta">
         <classes>
             <class name="Test123"/>
+            <class name="Qdwefwed"/>
+            <class name="Fwefw"/>
         </classes>
     </test>
 </suite>
