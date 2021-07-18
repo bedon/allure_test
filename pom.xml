@@ -72,6 +72,7 @@
                 <version>2.10.0</version>
                 <configuration>
                     <reportVersion>${allure.version}</reportVersion>
+                    <reportDirectory>${basedir}/target/allure-results</reportDirectory>
                 </configuration>
             </plugin>
         </plugins>
