@@ -1,5 +1,4 @@
-import io.qameta.allure.Feature;
-import io.qameta.allure.Story;
+import io.qameta.allure.*;
 import org.hamcrest.Matchers;
 import org.testng.annotations.*;
 
@@ -38,6 +37,11 @@ public class Test123 extends Steps{
 
     }
 
+    @Issues({
+            @Issue("test"),
+            @Issue("huest"),
+    })
+    @Description
     @Test
     public void qwe() {
         plus(2, 5);
