@@ -12,32 +12,12 @@ public class Test123 extends Steps{
 
     }
 
-    @BeforeMethod
-    public void befMeth() {
-
-    }
-
-    @BeforeTest
-    public void befTest() {
-
-    }
-
     @AfterClass
     public void aftClass() {
 
     }
 
-    @AfterMethod
-    public void aftMeth() {
-
-    }
-
-    @AfterTest
-    public void aftTest() {
-
-    }
-
-    @Test
+    @Test(description = "ethdgwvljkehkrj")
     public void qwe() {
         plus(2, 5);
     }
@@ -55,5 +35,10 @@ public class Test123 extends Steps{
     @Test
     public void fgrth45ge() {
         assertThat("test", 2 + 2, Matchers.equalTo(4));
+    }
+
+    @Test(enabled = false)
+    public void qwed() {
+        assertThat("test", 2 + 2, Matchers.equalTo(42));
     }
 }
