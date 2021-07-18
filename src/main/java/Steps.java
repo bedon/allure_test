@@ -7,6 +7,11 @@ public class Steps {
     @Step("hohoho {0}, {1}")
     public static void plus(int i, int b) {
         int c = i + b;
-        assertThat("test", c, Matchers.equalTo(42));
+        substep(c);
+    }
+
+    @Step("su step")
+    public static void substep(int i) {
+        assertThat("test", i, Matchers.equalTo(42));
     }
 }
