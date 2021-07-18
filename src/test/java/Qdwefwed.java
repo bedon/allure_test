@@ -9,7 +9,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 @Story("DGWSFCEFW")
 public class Qdwefwed {
     @Test
-    public void qwe() {
+    public void qweqwd() {
         assertThat("test", 2 + 2, Matchers.equalTo(42));
     }
 

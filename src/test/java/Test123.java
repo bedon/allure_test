@@ -37,16 +37,16 @@ public class Test123 extends Steps{
 
     }
 
-    @Issues({
-            @Issue("test"),
-            @Issue("huest"),
-    })
-    @Description
     @Test
     public void qwe() {
         plus(2, 5);
     }
 
+    @Issues({
+            @Issue("test"),
+            @Issue("huest"),
+    })
+    @Description("qrwrgjhqgbfwrwfkjhqkj")
     @Test
     public void fsdvsdv() {
         assertThat("test", 2 + 2, Matchers.equalTo(42));
