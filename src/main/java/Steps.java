@@ -16,7 +16,7 @@ public class Steps {
         assertThat("test", i, Matchers.equalTo(42));
     }
 
-    @Step("su step")
+    @Step("super step")
     public static void substep123() {
         assertThat("test", 42, Matchers.equalTo(42));
     }
