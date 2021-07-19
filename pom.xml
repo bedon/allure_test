@@ -71,7 +71,7 @@
                 <version>2.10.0</version>
                 <configuration>
                     <reportVersion>${allure.version}</reportVersion>
-                    <buildDirectory>${basedir}/.allure</buildDirectory>
+                    <serveHost>${basedir}/.allure</serveHost>
                     <propertiesFilePath>${basedir}/src/test/resources/allure.properties</propertiesFilePath>
                 </configuration>
             </plugin>
