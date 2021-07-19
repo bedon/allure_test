@@ -19,11 +19,11 @@ public class Test123 extends Steps{
 
     @DataProvider
     public Object[][] dpMethod(){
-        return new Integer[][] {{40}, {4}, {5}};
+        return new Integer[][] {{40, 50000000}, {4, 1111111111}, {5,343423434}};
     }
 
     @Test(dataProvider = "dpMethod")
-    public void qwe12(int s, String qwqefwrgefqwa) {
+    public void qwe12(int s, int qwqefwrgefqwa) {
         plus(s, 2);
     }
 
