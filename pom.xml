@@ -71,7 +71,7 @@
                 <version>2.10.0</version>
                 <configuration>
                     <reportVersion>${allure.version}</reportVersion>
-                    <allureDownloadUrl>https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/${allure.version}/allure-commandline-${allure.version}.zip</allureDownloadUrl>
+                    <installDirectory>${basedir}/qwe</installDirectory>
                     <propertiesFilePath>${basedir}/src/test/resources/allure.properties</propertiesFilePath>
                 </configuration>
             </plugin>
