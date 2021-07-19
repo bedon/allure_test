@@ -17,9 +17,14 @@ public class Test123 extends Steps{
 
     }
 
-    @Test()
-    public void qwe() {
-        plus(2, 5);
+    @DataProvider
+    public Object[][] dpMethod(){
+        return new Integer[][] {{2}, {4}, {5}};
+    }
+
+    @Test(dataProvider = "dpMethod")
+    public void qwe(int s) {
+        plus(s, 2);
     }
 
     @Issues({
@@ -35,10 +40,10 @@ public class Test123 extends Steps{
     @Test
     @Flaky
     public void test123() {
-        assertThat("test", 24 + 2, Matchers.equalTo(4));
+        assertThat("test", 2 + 2, Matchers.equalTo(4));
     }
 
-    @Test(enabled = false)
+    @Test()
     public void qwed() {
         assertThat("test", 2 + 2, Matchers.equalTo(42));
     }
