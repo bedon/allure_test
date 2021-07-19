@@ -23,7 +23,7 @@ public class Test123 extends Steps{
     }
 
     @Test(dataProvider = "dpMethod")
-    public void qwe12(int s) {
+    public void qwe12(int s, String qwqefwrgefqwa) {
         plus(s, 2);
     }
 
