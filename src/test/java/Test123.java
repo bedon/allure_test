@@ -19,7 +19,7 @@ public class Test123 extends Steps{
 
     @DataProvider
     public Object[][] dpMethod(){
-        return new Integer[][] {{42}, {4}, {5}};
+        return new Integer[][] {{40}, {4}, {5}};
     }
 
     @Test(dataProvider = "dpMethod")

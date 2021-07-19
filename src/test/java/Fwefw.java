@@ -11,7 +11,7 @@ public class Fwefw {
 
     @Test
     public void qwed() {
-        assertThat("test", 2 + 2, Matchers.equalTo(42));
+        assertThat("test", 21 + 2, Matchers.equalTo(42));
     }
 
     @Test
@@ -26,7 +26,7 @@ public class Fwefw {
 
     @Test
     public void fsdvsdv() {
-        assertThat("test", 2 + 2, Matchers.equalTo(42));
+        assertThat("test", 22 + 2, Matchers.equalTo(42));
     }
 
     @Test

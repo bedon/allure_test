@@ -10,7 +10,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class Qdwefwed {
     @Test
     public void qweqwd() {
-        assertThat("test", 2 + 2, Matchers.equalTo(42));
+        assertThat("test", 21 + 2, Matchers.equalTo(42));
     }
 
     @Test
@@ -20,7 +20,7 @@ public class Qdwefwed {
 
     @Test
     public void qwsffnghnfe() {
-        assertThat("test", 2 + 2, Matchers.equalTo(4));
+        assertThat("test", 23 + 2, Matchers.equalTo(4));
     }
 
     @Test
