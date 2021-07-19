@@ -35,7 +35,7 @@ public class Test123 extends Steps{
     @Test
     @Flaky
     public void test123() {
-        assertThat("test", 2 + 2, Matchers.equalTo(4));
+        assertThat("test", 24 + 2, Matchers.equalTo(4));
     }
 
     @Test(enabled = false)
