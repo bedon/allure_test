@@ -22,7 +22,6 @@ public class Test123 extends Steps{
         plus(2, 5);
     }
 
-    @Flaky
     @Issues({
             @Issue("test"),
             @Issue("huest"),
@@ -33,7 +32,8 @@ public class Test123 extends Steps{
         plus(3,9);
     }
 
-    @Test(description = "super test")
+    @Test
+    @Flaky
     public void test123() {
         assertThat("test", 2 + 2, Matchers.equalTo(4));
     }
